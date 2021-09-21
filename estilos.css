@@ -3,45 +3,79 @@
     padding: 0px;
 }
 
-header{
+#horizontal_navbar{
     width: 100%;
     height: 140px;
     background: rgb(247, 226, 226);
-    margin-bottom: 20px; 
-}
-
-.ancho{
-    width: 80%;
-    height: 70%;
-    
-    margin: auto;
+    margin-bottom: 20px;  
+    float: right;
+     margin: 0px;
+    list-style: none;
+    line-height: 30px;
+    text-align: right; 
 }
 
 #landing_logo{
-    padding: 10px;
-    float: left;
+    padding: 10px 100px; 
+    float: left;  
 } 
 
-nav{
+#boton_registro_usuario{
+    width: 150px;
+    height: 110px;
+    padding: 40px 40px;
     float: right;
-    margin: 0px;
-    list-style: none;
-    line-height: 30px;
-    text-align: right;
-    padding: 20px;
+    border-radius: 40px;
+    margin: 15px 100px;
+    border-style: none;
+    background-color: rgb(247, 226, 226);
+    transition: 02s;
 }
 
-nav button a img{
-    width: 140px;
-    height: 120;
-    border-radius: 20px;
+#boton_registro_usuario:hover {
+    background-color: powderblue;
 }
 
-.center{
+#irA_registro_usuario{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0px;
+    border-radius: 4px; 
+    float: right;
+    margin: -20px;
+}
+
+.img-fluid{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 4px; 
+    float: right;
+    margin-top: -20px; 
+}
+#titulo{
+    width: fit-content;
+    margin: 0 auto;
+}
+#center{
+    width: 80%;
     text-align: center;
     font-size: 20px;
     text-justify: auto;
-    
+    margin: 0 auto;
+}
+
+#final{
+    background: rgb(247, 226, 226);
+    color: rgb(16, 212, 238);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: auto;
+    font-family: sans-serif;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
 }
 
 body#registro{
@@ -52,6 +86,12 @@ body#registro{
     background-position-x: 30%;
     font-family: sans-serif;
     height:80vh;
+}
+
+#form_nuevo_usuario{
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 4px;   
 }
 
 .login-box {
@@ -131,3 +171,5 @@ body#registro{
   .login-box a:hover {
     color: #fff;
   }
+
+  
