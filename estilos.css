@@ -195,3 +195,7 @@ color: darkgrey;
 #form_nuevo_usuario a:hover {
 color: #fff;
 }
+
+#registro{
+  background-color: aqua;
+}
