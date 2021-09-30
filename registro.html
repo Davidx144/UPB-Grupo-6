@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" type="text/css" href="/UPB-Grupo-6/estilos.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body id="registro">
-    <form id="form_nuevo_usuario">
-        <img  src = "https://i.ibb.co/6YXNRnD/logo.png" width="150px" height="100px"class = " avatar " alt = " Imagen de Avatar " >
-        <h1> Registrate </h1>
-        <label for="dato_nombre_usuario2">Nombre</label>
-        <input id="dato_nombre_usuario" type="text" placeholder="Ingrese su nombre" autofocus >
 
-        <label for="dato_edad_usuario2">Edad</label>
-        <input id="dato_edad_usuario" type="number" placeholder="Ingrese su edad" >
-            
-        <label for="dato_contrasena2">Contraseña</label>
-        <input id="dato_contrasena" type="password" placeholder="Ingrese su Contraseña">
-        <button id="enviar_registro" type="button" value="Enviar">Enviar</button>
-        <a href="#">Recupera tu contraseña</a> 
-    </form>
+<body id="registro">
+    
+    <div>
+        <form id="form_nuevo_usuario">
+            <img src="https://i.ibb.co/6YXNRnD/logo.png" width="150px" height="100px" class=" avatar "
+                alt=" Imagen de Avatar ">
+            <h1> Registrate </h1>
+            <label for="nombre"> Nombre: </label>
+            <input id="dato_nombre_usuario" type="text" placeholder="Ingrese su nombre" autofocus>
+
+            <label for="dato_edad_usuario2">Edad: </label>
+            <input id="dato_edad_usuario" type="number" placeholder="Ingrese su edad">
+
+            <label for="dato_contrasena2">Contraseña: </label>
+            <input id="dato_contrasena" type="password" placeholder="Ingrese su Contraseña">
+
+            <button id="enviar_registro" type="submit" value="Enviar">Enviar</button>
+            <a href="#">Recupera tu contraseña</a>
+        </form>
+    </div>
+    <!--  -->
 </body>
+
+<footer id="final"> Grupo 6 </footer>
+<script src="/UPB-Grupo-6/validaciones.js"></script>    
 </html>
